@@ -20,6 +20,9 @@ class Role_Command extends WP_CLI_Command {
 	 * [--fields=<fields>]
 	 * : Limit the output to specific object fields.
 	 *
+	 * [--field=<field>]
+	 * : Prints the value of a single field for each role.
+	 *
 	 * [--format=<format>]
 	 * : Accepted values: table, csv, json, count, yaml. Default: table
 	 *
